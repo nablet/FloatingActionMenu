@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="60dp"
+    android:layout_gravity="end"
+    android:orientation="horizontal"
+    tools:ignore="HardcodedText,UseCompoundDrawables,ContentDescription">
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:padding="12dp"
+        android:text="Floating Button"
+        android:textSize="16sp" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/iv"
+        android:layout_gravity="center"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:src="@drawable/ic_add_circle" />
+
+</LinearLayout>
